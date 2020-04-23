@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build') {
             steps {
-                sh "${tool name: 'sbt', type:'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin/sbt compile"
+                sh "${tool name: 'sbt', type:'/home/knoldus/Downloads/sbt/bin/sbt-launch.jar'}/bin/sbt compile"
             }
         }
     }
