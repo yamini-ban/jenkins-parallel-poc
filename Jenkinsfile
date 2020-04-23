@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build') {
             steps {
-                sh sbt clean compile
+                sh "sbt clean compile"
             }
         }
     }
