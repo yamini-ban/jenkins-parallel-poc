@@ -1,2 +1,14 @@
 *.class
 *.log
+
+#sbt
+# (may want to keep parts of 'project')
+bin/
+*/target
+target/
+build/
+build.properties
+*.iml
+*.ipr
+*.iws
+.idea
